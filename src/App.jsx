@@ -20,6 +20,8 @@ import {
   ContestApi,
 } from "./Component/index";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Split from "./Component/Split/Split";
+import SearchFilter from "./Component/SearchFilter/SearchFilter";
 const App = () => {
   return (
     <BrowserRouter>
@@ -35,9 +37,8 @@ const App = () => {
         <Route path="/user" element={<User/>} />
         <Route path="/post" element={<Post/>} />
         <Route path="/helper" element={<HelperFile/>} />
-        <Route path="/promise" element={<Promise/>} />
-        
-
+        <Route path="/promise" element={<Split/>} />
+        <Route path="/search" element={<SearchFilter/>} />
       </Routes>
     </BrowserRouter>
 

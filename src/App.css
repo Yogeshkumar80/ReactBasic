@@ -2,3 +2,24 @@
   padding:0;
   margin:0;
 }
+
+.grid-main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:15px;
+  padding:2em; 
+}
+
+.grid-child{
+  border: 1px solid #a7a7a7;
+  padding:10px;
+}
+
+.Search{
+  width:50%;
+  height:1.6rem;
+  margin:14px;
+  outline:none;
+  border:2px solid #a7a7a7;
+
+}
