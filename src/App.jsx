@@ -6,8 +6,10 @@ import Key from "./Component/Key";
 import User from "./Component/HigherOrder/User";
 import HelperFile from "./Component/HelperFunction/HelperFile";
 import Post from "./Component/HigherOrder/Post";
+
 // const Lorem= lazy(()=> import("./Component/LazyLoading/Lorem"));
 // const Home= lazy(()=> import("./Component/LazyLoading/Home"))
+import Promise from "./Component/Promise/Promise";
 import {
   Form,
   Dynamic,
@@ -33,6 +35,7 @@ const App = () => {
         <Route path="/user" element={<User/>} />
         <Route path="/post" element={<Post/>} />
         <Route path="/helper" element={<HelperFile/>} />
+        <Route path="/promise" element={<Promise/>} />
         
 
       </Routes>
